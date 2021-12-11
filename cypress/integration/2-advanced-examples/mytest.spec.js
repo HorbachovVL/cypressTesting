@@ -1,3 +1,5 @@
+//To start test npx cypress open
+
 describe('Testing google search', () => {
     it ('I search some information', () => {
         cy.visit('https://www.google.com.ua');
